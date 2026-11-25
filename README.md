@@ -1,6 +1,6 @@
 # Web Scraping – Website Data Extraction and Dataset Creation
 
-A beginner-friendly, production-structured Python web scraping and data analytics project. It automatically extracts book catalog data from a publicly accessible practice site ([Books to Scrape](https://books.toscrape.com/)), parses HTML elements with **BeautifulSoup**, handles multi-page pagination politely, cleans and structures the records with **Pandas**, and exports an analysis-ready CSV dataset (`data/scraped_data.csv`).
+A beginner-friendly, production-structured Python web scraping and data analytics project. It automatically extracts book catalog data from a publicly accessible practice site ([Books to Scrape](https://books.toscrape.com/)), parses HTML elements with **BeautifulSoup**, handles multi-page pagination politely, cleans and structures the records with **Pandas**, and exports an analysis-ready CSV dataset (scraped_data.csv)
 
 ---
 
@@ -21,8 +21,7 @@ Demonstrate the complete end-to-end data collection workflow used in Data Analyt
 Web_Scraping/
 │
 ├── scraper.py            # Main scraping, cleaning, and CSV export pipeline
-├── data/
-│   └── scraped_data.csv  # Generated clean dataset (created automatically)
+├── scraped_data.csv                        # Generated clean dataset (created automatically)
 ├── requirements.txt      # Required Python packages
 ├── README.md             # Project documentation and setup guide
 └── .gitignore            # Git ignore rules for virtual environments and caches
