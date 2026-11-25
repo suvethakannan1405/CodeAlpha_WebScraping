@@ -16,16 +16,15 @@ Demonstrate the complete end-to-end data collection workflow used in Data Analyt
 ---
 
 ## Project Structure
-
-```text
-Web_Scraping/
+CodeAlpha_WebScraping/
 │
-├── scraper.py            # Main scraping, cleaning, and CSV export pipeline
-├── scraped_data.csv                        # Generated clean dataset (created automatically)
-├── requirements.txt      # Required Python packages
-├── README.md             # Project documentation and setup guide
-└── .gitignore            # Git ignore rules for virtual environments and caches
-```
+├── scraper.py
+├── data/
+│   └── scraped_data.csv
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 
 ---
 
